@@ -69,7 +69,7 @@ MyMENU = (function(){
 
             switch(o.type) {
                 case 'link':
-                	data = {'label': o.label, 'url': o.url, 'icon': o.icon, 'type' : 'link'}
+                	data = {'label': o.label, 'url': [o.url], 'icon': o.icon, 'type' : 'link'}
                     if(o.location == 'left' || o.location == 'right'){
                         this.navbar[o.location].push(data);
                     } else {

@@ -7,7 +7,7 @@ class MenuAsset extends \yii\web\AssetBundle {
     public $baseUrl = '@web';
     public $js = [
         'js/Sortable.min.js',
-        'js/menu.min.js',
+        'js/menu.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',
